@@ -3,7 +3,9 @@
     <img src="../assets/cnodejs_light.svg">
     <ul>
       <li>
-        <a href="root">首页</a>
+        <router-link :to="{name:'root'}">
+          <a href>首页</a>
+        </router-link>
       </li>
       <li>
         <a href="#">新手入门</a>
