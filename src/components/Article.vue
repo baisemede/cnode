@@ -78,7 +78,7 @@ export default {
   },
   watch: {
     $route(to, from) {
-      this.getdata;
+      this.getdata();
     }
   }
 };
